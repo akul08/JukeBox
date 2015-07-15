@@ -22,7 +22,7 @@ Want to Play all Your Music that is in your Laptop in your other devices such as
 
 # My JukeBox !!
 
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
+![alt tag](https://raw.githubusercontent.com/akul08/JukeBox/master/jukebox.png)
 
 
 - Simple. Isn't It. Enjoy.
