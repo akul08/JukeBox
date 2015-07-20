@@ -17,6 +17,17 @@ target.write('''<!DOCTYPE html>
 	
 </head>
 <body>
+	<div id="searcharea">
+		<label for="search" id ="search-label">Live Search</label>
+		<input type="search" name="search" id="search" placeholder="search a song" />
+	</div>
+	<p>Auto-Play
+	 <label class="switch">
+      <input type="checkbox" id="checkbox" class="switch-input">
+      <span class="switch-label" data-on="On" data-off="Off"></span>
+      <span class="switch-handle"></span>
+    </label></p>
+	<div id="update">
 	<ul class ="player">
 	''')
 for i in os.listdir(mypath):
@@ -26,6 +37,7 @@ for i in os.listdir(mypath):
 		target.write('\n')
 target.write('''
 	</ul>
+	</div>
 	<script src="js/script.js"></script>
 </body>
 </html>
